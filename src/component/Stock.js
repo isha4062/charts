@@ -7,8 +7,6 @@ export const Stock = () => {
     const [yValue, setYValue] = useState([]);
     const [yValue2, setYValue2] = useState([]);
     const fetchStock = useCallback(() => {
-        const pointerToThis = this;
-        console.log(pointerToThis);
         const API_KEY = 'ZHJL6YB2VNALN2PB';
         let StockSymbol = 'IBM';
         let StockSymbol2 = 'RELIANCE.BSE';
